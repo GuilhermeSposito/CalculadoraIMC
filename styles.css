@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Exo+2:wght@500&family=Kdam+Thmor+Pro&family=Secular+One&display=swap');
+
+*{
+
+
+    padding: 0;
+    margin:0;
+    font-family: 'Exo 2', sans-serif;
+    color: #B2BEBF;
+}
+
+
+body{
+
+    
+  /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, #326773, white, #F23DB3 );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+.conteiner {
+          width: 400px;
+          height: 500px;
+        margin:  95px auto;
+        background-color: #486966;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    border-radius: 10px;
+    border:solid 2px #B2BEBF;
+   box-shadow: 1px 1px 100px rgb(3, 3, 3);
+    
+}
+
+
+.divh1{
+        width: 100%;
+        font-size: 25px;
+        margin-bottom: px;
+        margin-left:1px;
+        
+
+}
+h1{
+    text-shadow: 5px 10px 7px #3B3936;
+
+}
+
+.divh1 h3{
+            font-size: 15px;
+            padding-left: 100px;
+
+}
+
+.nome{
+        margin: 0 auto;
+    font-size: 30px;
+}
+
+.altura{
+        margin: 0 auto;
+        font-size: 30px;
+}
+
+.peso{
+    margin: auto;
+    font-size: 30px;
+}
+
+.divh1 img{
+        padding-left: 45%;
+
+}
+
+input{
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+input::-webkit-input-placeholder{
+
+    color: rgb(37, 37, 37);
+    
+    font-family: 'Exo 2', sans-serif;
+
+    font-size: 15px;
+
+    padding-left: 40px;
+
+}
+
+.peso input{
+
+    margin-left: 33px;
+
+}
+
+label{
+    cursor:pointer;
+
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0;
+}
+
+.diva{
+   
+    width: 180px;
+    margin-left: 200px;
+    
+
+}
+
+
+
+button{
+        width: 200px;
+        height: 50px;
+        color: white;
+        font-size: 19px;
+        background: #1245eb;
+        border-bottom: none;
+        margin: 0 auto;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.8s;
+        margin-top: 15px;
+        margin-bottom: px;
+        border: solid white 1px;
+        
+
+}
+
+.button:hover{
+        background:#1b44ce ;
+        transform:scale(1.1);
+}
+
+.button:focus{
+    outline-offset: 3px;
+
+}
+
+
+
+#resultado{
+    
+    width: 150px;
+    font-size: 20px;
+    padding-left: 5px ;
+    text-shadow: 5px 10px 7px #3B3936;
+    border: solid rgb(37, 37, 37) 1px;
+    margin: 0 auto;
+    background-color: rgba(14, 13, 13, 0.3);
+
+}
+
+
+.desenvolvido{
+
+    color: black;
+   
+
+}
+
+
+
+@media(max-width: 1298px){
+
+    body{
+    
+        width: 100vw;
+        height: 100vh;
+
+    }
+
+    .conteiner{
+        
+        margin: 100px auto;
+        margin-bottom: 200px;
+    }
+
+    .desenvolvido{
+        margin-top: 1px;
+
+    }
+
+
+}
+
+@media(max-width: 728px){
+
+        body{
+        
+            width: 100vw;
+
+        }
+
+        .divh1{
+            width: 100%;
+            font-size: 15px;
+            margin-bottom: 20px;
+            margin-left:1px;
+            padding-left: 20%;
+    
+    }
+
+    .divh1 h3{
+        font-size: 12px;
+        padding-left: 10%;
+
+}
+
+    img{
+            display: none;
+
+    }
+
+
+    label{
+            font-size: 20px;
+            margin-left: 0;
+
+    }
+
+        .conteiner{
+            width: 60%;
+            margin: 100px auto;
+            margin-bottom: 0;
+        }
+
+        input{
+            width: 60%;
+            margin-left: 1px;
+            
+        }
+
+
+        .desenvolvido{
+            margin-top: 1px;
+
+        }
+
+
+        .peso input{
+
+            margin-left:10px;
+        
+        }
+
+        
+input::-webkit-input-placeholder{
+
+    color: rgb(37, 37, 37);
+    
+    font-family: 'Exo 2', sans-serif;
+
+    font-size: 10px;
+
+    padding-left: 10px;
+
+}
+
+}
+
+@media (max-width: 40px){
+
+
+    
+
+    .conteiner{
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+
+
+}
